@@ -1,0 +1,39 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 12px;
+  color: #000;
+}
+
+canvas {
+  display: block;
+  width: 28px;
+  height: 28px;
+  margin: 0 auto;
+  background: #fafafa;
+  zoom: 6;
+}
+
+p#prediction {
+  width: 168px;
+  height: 168px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 110pt;
+  background: #fafafa;
+}
+
+p#prediction.correct { 
+  color: #00ff00;
+}
+
+p#prediction.wrong {
+  color: #ff0000;
+}
+
+.box { 
+  width: 50%;
+  display: inline-block; 
+  min-height: 260px;
+  text-align: center;
+  float: left;
+}
